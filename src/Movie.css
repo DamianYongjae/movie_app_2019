@@ -1,0 +1,48 @@
+.movies__movie {
+    width: 45%;
+    background-color: white;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 5px;
+    font-weight: 300;
+    padding: 20px;
+    color: #adaeb9;
+    box-shadow: 5px 10px #adaeb9
+
+}
+
+.movies img {
+    position: relative;
+    top: -50px;
+    max-width: 180px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.movies h3, .movies h5 
+.movie__year, .movie__title{
+    margin: 0;
+    font-weight: 300;
+}
+
+.movie__title{
+    padding-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+}
+
+.movie__genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin: 5px 0px;
+}
+
+.movie__genres li {
+    margin-right: 10px;
+    font-size: 14px;
+
+}
